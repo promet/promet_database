@@ -19,7 +19,7 @@
 #
 
 mysql_connection_info = {:host => "localhost",
-                         :username => 'root',
+                         :username => "root",
                          :password => node['mysql']['server_root_password']}
 
 nagiosuser = data_bag_item('users', 'nagiosadmin')
